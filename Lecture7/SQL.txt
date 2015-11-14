@@ -1,0 +1,4 @@
+    private static final String DATABASE_CREATE_USERS = "create table "
+            + TABLE_USERS + "(" + COLUMN_ID + " integer primary key autoincrement, "
+            + COLUMN_NAME  + " text not null,"
+            + COLUMN_EMAIL + " text not null);";

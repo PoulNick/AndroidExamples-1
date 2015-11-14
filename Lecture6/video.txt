@@ -1,0 +1,7 @@
+VideoView vid = (VideoView) findViewById(R.raw.dialup_sound);
+
+//vid.setVideoPath(//sdcard/videoname.mp4);
+vid.setMediaController(new MediaController(this));
+
+vid.start();
+vid.requestFocus();
